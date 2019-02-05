@@ -26,10 +26,12 @@ export default {
   },
   methods: {
     itemSelected (item) {
-      console.log('Selected item!', item)
+      return item
+      // console.log('Selected item!', item)
     },
     itemClicked (item) {
-      console.log('You clicked an item!', item)
+      return item
+      // console.log('You clicked an item!', item)
     },
     getLabel (item) {
       if (item) {
@@ -47,7 +49,7 @@ export default {
             })
           }
         )
-        .catch(e => {
+        .catch(() => {
           return false
         })
       }
