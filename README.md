@@ -10,20 +10,8 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Packages
 ```
-npm run build
+v-autocomplete
+https://www.npmjs.com/package/v-autocomplete
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
