@@ -1,6 +1,7 @@
 <template>
 <div>
-  <span> {{ item.name }} </span>
+  <span><b>#Repository name:</b> {{ item.name }} </span>
+  <span><b>#Language:</b> {{ item.language || 'Unknown' }}</span>
 </div>
 </template>
 
@@ -11,3 +12,4 @@ export default {
   }
 }
 </script>
+
